@@ -1,4 +1,4 @@
-package se.hellsoft.composetemplate.di
+package se.hellsoft.composetemplate.network.di
 
 import android.content.Context
 import dagger.Module
@@ -13,12 +13,12 @@ import io.ktor.client.plugins.auth.providers.BearerTokens
 import io.ktor.client.plugins.auth.providers.bearer
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.serialization.kotlinx.json.json
-import se.hellsoft.composetemplate.data.TokenRepository
+import se.hellsoft.composetemplate.network.data.TokenRepository
 import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-object AppModule {
+object NetworkModule {
 
     @Provides
     @Singleton

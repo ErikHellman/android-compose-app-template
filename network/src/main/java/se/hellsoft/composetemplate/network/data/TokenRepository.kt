@@ -1,4 +1,4 @@
-package se.hellsoft.composetemplate.data
+package se.hellsoft.composetemplate.network.data
 
 import android.content.Context
 import androidx.datastore.preferences.core.edit
