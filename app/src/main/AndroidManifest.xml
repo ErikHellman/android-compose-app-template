@@ -25,7 +25,7 @@
             android:exported="false"
             tools:node="merge">
             <meta-data
-                android:name="se.hellsoft.composetemplate.startup.HiltInitializer"
+                android:name="${applicationId}.startup.HiltInitializer"
                 android:value="androidx.startup" />
         </provider>
 
