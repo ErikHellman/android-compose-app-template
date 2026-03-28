@@ -17,6 +17,7 @@ lifecycleViewmodelNavigation3 = "2.11.0-alpha03"
 kotlinxSerializationCore = "1.10.0"
 accompanistPermissions = "0.37.3"
 startupRuntime = "1.2.0"
+coroutinesTest = "1.10.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -47,6 +48,7 @@ lifecycle-viewmodel-navigation3 = { group = "androidx.lifecycle", name = "lifecy
 kotlinx-serialization-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-core", version.ref = "kotlinxSerializationCore" }
 accompanist-permissions = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanistPermissions" }
 startup-runtime = { group = "androidx.startup", name = "startup-runtime", version.ref = "startupRuntime" }
+kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutinesTest" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

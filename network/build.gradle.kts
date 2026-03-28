@@ -14,6 +14,7 @@ android {
 
     defaultConfig {
         minSdk = 31
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     compileOptions {
@@ -36,4 +37,8 @@ dependencies {
     implementation(libs.ktor.client.auth)
     implementation(libs.ktor.client.content.negotiation)
     implementation(libs.ktor.serialization.kotlinx.json)
+
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.kotlinx.coroutines.test)
 }
